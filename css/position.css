@@ -1,0 +1,41 @@
+* {
+  font-family: "Poppins";
+}
+
+.normal-parent {
+    height: 100px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+.parent{
+    border: 1px solid black;
+    position: relative;
+}
+.card1 {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #ac3939;
+  z-index: 10;
+}
+
+.card2 {
+  position: absolute;
+
+  bottom: 0px;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #39ac3b;
+  z-index: 3;
+}
+
+.card3 {
+ position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #caaa0b;
+  z-index: 2;
+}
