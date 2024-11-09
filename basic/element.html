@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Inline and Block</h1>
+    <a href="">One</a>
+    <img
+      width="300px"
+      src="https://images.unsplash.com/photo-1729614499339-b98e60ff68d6?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt=""
+    />
+    <p>Block 2</p>
+
+    <hr />
+
+    <ul>
+      <li>apple</li>
+      <li>Orange</li>
+      <li>Grap</li>
+    </ul>
+
+    <hr />
+
+    <ol>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Grape</li>
+    </ol>
+    <hr />
+
+    <h1>Table</h1>
+    <table id="user-table">
+      <tr>
+        <th>No</th>
+        <th>name</th>
+        <th>email</th>
+      </tr>
+      <tr>
+        <td class="number">1</td>
+        <td class="user-name">KKK</td>
+        <td>kkk@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="number">2</td>
+        <td class="user-name">DD</td>
+        <td>dd@gmail.com</td>
+      </tr>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h1>Form</h1>
+    <fieldset>
+      <legend>Form</legend>
+
+      <form action="" method="get">
+        <div>
+          <div>
+            <label for="male">Male</label>
+            <input id="male" name="gender" value="male" type="radio" />
+          </div>
+
+          <div>
+            <label for="female">Female</label>
+            <input id="female" name="gender" value="female" type="radio" />
+          </div>
+        </div>
+
+        <div>
+          <label for="name">Name</label>
+          <input name="user-name" id="name" type="text" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input name="email" id="email" type="email" required />
+        </div>
+
+        <div>
+          <label for="">Password</label>
+          <input name="password" type="password" />
+        </div>
+
+        <label for="html">HTML</label>
+        <input name="language" id="html" value="html" type="checkbox" />
+
+        <label for="css">CSS</label>
+        <input name="language" id="css" value="css" type="checkbox" />
+
+        <select name="fruits" id="">
+            <option value="" selected>Choose one</option>
+            <option value="apple">Apple</option>
+            <option value="grape">Grape</option>
+            <option value="orange" >Orange</option>
+        </select>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
