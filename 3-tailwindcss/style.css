@@ -1,0 +1,46 @@
+.heading{
+    color: red;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.p-5{
+    padding: 15px;
+}
+
+.px-5{
+    padding: 0px 15px;
+}
+
+
+
+.btn{
+    border: none;
+    padding: 10px 15px;
+   
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.btn-purple{
+    background-color: #6A42C2;
+}
+
+.btn-purple:hover{
+    background-color: #402777;
+}
+
+.btn-purple:active{
+    background-color: #211b2e;
+}

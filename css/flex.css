@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    background-color: rgb(225, 195, 195);
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(120, 155, 155);
+}
+
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 195, 44);
+}
+
+
+.child3 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
