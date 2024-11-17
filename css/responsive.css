@@ -1,0 +1,25 @@
+.heading{
+    color: red;
+}
+
+.icon {
+    font-size: 5rem;
+    color: green;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 9999px ;
+
+}
+@media screen and (max-width:900px){
+  .heading{
+    color: green;
+  }          
+}
+
+@media screen and (max-width:768px){
+    .heading{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
