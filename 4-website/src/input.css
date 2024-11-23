@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .range-card{
+        @apply h-[480px] object-cover;
+    }
+
+    .range-card-text{
+        @apply text-center text-lg font-bold my-2
+    }
+
+    .section-container{
+        @apply max-w-7xl mx-auto
+    }
+}
