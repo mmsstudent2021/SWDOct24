@@ -17,4 +17,12 @@
     .section-container{
         @apply max-w-7xl mx-auto
     }
+
+    .prodcut-card{
+        @apply h-[300px] w-full object-cover object-center
+    }
+
+    .p-text-container{
+        @apply bg-slate-200 py-6 px-5
+    }
 }
