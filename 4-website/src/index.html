@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
-<body>
-    <h1 class="text-red-400 bg-black">Hello</h1>
+<body class="font-poppins">
+    
+    <header class="text-gray-600 body-font font-poppins">
+        <div class="max-w-7xl mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Furniro</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base gap-x-6 justify-center">
+            <a class="mr-5 hover:text-gray-900">Home</a>
+            <a class="mr-5 hover:text-gray-900">Shop</a>
+            <a class="mr-5 hover:text-gray-900">About</a>
+            <a class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+         <div class="space-x-6">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+         </div>
+        </div>
+    </header>
+
+    <section class="h-[600px]  bg-contain "  style="background-image: url(./images/home.png);">
+        <!-- controls  -->
+        <div class="max-w-7xl mx-auto w-full h-full relative ">
+            <!-- card  -->
+            <div class="max-w-sm px-5 py-6 space-y-5 rounded-xl bg-orange-200 absolute right-0 top-[25%]">
+                <p><span>New Arrival</span></p>
+                <p><span  class="text-3xl font-bold text-orange-700">Discover Our </span> <br> <span class="text-3xl font-bold text-orange-700">New Collection</span></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint pariatur animi</p>
+                <button class="bg-orange-700 text-slate-200 px-5 py-2">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
